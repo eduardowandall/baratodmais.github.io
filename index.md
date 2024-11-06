@@ -1,7 +1,7 @@
 # Bem-vindo à Nossa Empresa
 
 <div align="center">
-  ![Logo da Empresa](./docs/assets/image.png)
+  <img src="./docs/assets/image.png">
 </div>
 
 ---
