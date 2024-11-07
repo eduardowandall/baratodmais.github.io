@@ -8,14 +8,15 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #202020;
     background-color: #f4f4f4;
 }
 
 header {
     text-align: center;
     padding: 2rem;
-    background-color: #2d6a4f; /* Tom verde para dar um ar de confiança */
+    background-color: #2d6a4f;
+    /* Tom verde para dar um ar de confiança */
     color: #fff;
 }
 
@@ -26,6 +27,7 @@ header h1 {
 
 header p {
     font-size: 1.2rem;
+    color: #fff;
 }
 
 main {
@@ -69,4 +71,40 @@ footer {
     background-color: #2d6a4f;
     color: #fff;
     font-size: 0.9rem;
+}
+
+footer p {
+    color: #dfdfdf;
+}
+
+.units {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.unit {
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.unit h2 {
+    font-size: 1.5rem;
+    color: #2d6a4f;
+    margin-bottom: 0.5rem;
+}
+
+.unit p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.circle {
+    width: 150px; /* ajuste o tamanho conforme necessário */
+    height: 150px; /* deve ser igual à largura para manter o formato circular */
+    border-radius: 50%; /* transforma o formato em círculo */
+    object-fit: cover; /* mantém o foco central da imagem, evitando distorção */
+    overflow: hidden;
 }
